@@ -1,0 +1,31 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+.env.* 
+
+# Build output
+.next/
+out/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS generated files
+.DS_Store
+
+# Vercel deployment
+.vercel
+
+# IDEs
+.vscode/
+.idea/
+*.sw?
+
+# Lock files (optional depending on team setup)
+# yarn.lock
+# package-lock.json

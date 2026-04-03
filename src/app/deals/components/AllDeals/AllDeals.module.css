@@ -1,0 +1,49 @@
+.DealsTalkMainContainer {
+    /* height: 100% !important; */
+    width: 100%;
+    max-width: 1326px !important;
+    margin: auto;
+    padding: 60px 16px;
+}
+
+.cardLink {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+    cursor: pointer;
+}
+
+.cardLink:hover {
+    transform: scale3d(1.02, 1.02, 1);
+    transition: all 0.3s ease-in-out;
+}
+
+
+/* Private Deal Theme for AllDeals */
+.privateDealTheme {
+    background-color: #000000 !important;
+    color: white !important;
+}
+
+.privateDealTheme::after {
+    content: url('/blackBgEllipse.png');
+
+}
+
+.privateDealTheme .DealsTalkHeading {
+    color: white !important;
+}
+
+.privateDealTheme .SpanDealsTalkHeading {
+    color: #B59131 !important;
+}
+
+
+@media(max-width:768px) {
+    .DealsTalkMainContainer {
+        padding: 20px 16px;
+    }
+
+
+}

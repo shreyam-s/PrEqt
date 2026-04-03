@@ -1,0 +1,22 @@
+.Carouselimage{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 628px !important;
+     border-radius: 16px;
+     object-fit: cover;
+}
+.CarouselimageContainer{
+     height: 100%;
+     /* height: 400px; */
+     width: 100%;
+     max-width: 628px !important;
+     
+
+}
+
+.sliderImg{
+     object-fit: cover;
+     width: 100%;
+     border-radius: 18px;
+}

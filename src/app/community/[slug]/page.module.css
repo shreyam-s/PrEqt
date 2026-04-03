@@ -1,0 +1,39 @@
+.postDealMainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 24px 0 30px 0;
+    gap: 24px;
+    /* border: 1px solid black; */
+    /* align-items: center; */
+}
+.backbuttonContainer{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--dark, #0E0F11);
+  font-family: "Helvetica Neue";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 200% */
+  letter-spacing: -0.75px;
+  text-decoration: none;
+  }
+
+
+  @media (max-width: 768px) {
+   
+    .backbuttonContainer{
+        margin-top: 20px;
+        font-size: 14px;
+        gap: 8px;
+        padding: 0 10px;
+      }
+  }
+
+  .postDealMainContainer{
+    padding: 16px 0 20px 0;
+    padding-top: 0;
+  }

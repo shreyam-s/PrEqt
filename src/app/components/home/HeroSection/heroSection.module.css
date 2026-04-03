@@ -1,0 +1,140 @@
+.heroMainContainer {
+    /* display: flex; */
+    min-height: 1170px;
+    /* use min-height instead of fixed height */
+    width: 100%;
+    /* max-width: 1920px; */
+    margin: 0 auto;
+    /* overflow-x: hidden; */
+    padding: 30px 0px;
+    gap: 0px;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    gap: 20px;
+    justify-content: center;
+}
+
+.heroFrame {
+    /* display: flex; */
+    flex-direction: column;
+    min-height: 1060px;
+    gap: 60px;
+    align-items: center;
+}
+
+.mainDiv {
+    width: 100%;
+    /* max-width: 1920px; */
+    margin: 0 auto;
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.superMainDiv {
+    width: 100%;
+}
+
+.midlrow {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.rightclm {
+    max-width: 68.75vw;
+    min-width: 68.75vw;
+    ;
+}
+
+.leftclm {
+    max-width: 23.86vw;
+}
+
+@media (max-width: 1500px) {
+    .rightclm {
+        max-width: 62.75vw;
+        min-width: 62.75vw;
+    }
+
+    .leftclm {
+        max-width: 27.86vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .rightclm {
+        max-width: 58.75vw;
+        min-width: 58.75vw;
+    }
+
+    .leftclm {
+        max-width: 29.86vw;
+    }
+}
+
+
+@media (max-width: 1120px) {
+    .rightclm {
+        max-width: 53.75vw;
+        min-width: 53.75vw;
+    }
+
+    .leftclm {
+        max-width: 33.86vw;
+    }
+}
+
+@media (max-width: 1040px) {
+    .rightclm {
+        max-width: 51.15vw;
+        min-width: 51.15vw;
+    }
+
+    .leftclm {
+        max-width: 38.86vw;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainDiv {
+        padding: 0 40px;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+    .midlrow {
+        flex-direction: column;
+    }
+
+    .rightclm {
+        max-width: 100%;
+        min-width: 100%;
+    }
+
+    .leftclm {
+        max-width: 100%;
+    }
+
+    .mainDiv {
+        padding: 0 16px;
+        /* padding-right: 0; */
+    }
+}
+
+@media (max-width: 480px) {
+    .heroMainContaine {
+        padding: 0;
+    }
+
+    
+}
+
+
+@media (max-width: 480px) {
+    .heroMainContainer {
+        background-color: unset;
+        min-height: unset;
+    }
+}
